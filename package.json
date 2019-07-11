@@ -1,8 +1,8 @@
 {
-  "name": "libp2p-circuit",
-  "version": "0.3.7",
+  "name": "@arve.knudsen/libp2p-circuit",
+  "version": "0.3.8",
   "description": "JavaScript implementation of circuit/switch relaying",
-  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
+  "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
   "files": [
     "src",
@@ -25,16 +25,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/libp2p/js-libp2p-circuit.git"
+    "url": "git+https://github.com/aknuds1/js-libp2p-circuit.git"
   },
   "keywords": [
     "IPFS"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p-circuit/issues"
+    "url": "https://github.com/aknuds1/js-libp2p-circuit/issues"
   },
-  "homepage": "https://github.com/libp2p/js-libp2p-circuit#readme",
+  "homepage": "https://github.com/aknuds1/js-libp2p-circuit#readme",
   "contributors": [
     "David Dias <daviddias.p@gmail.com>",
     "Dmitriy Ryajov <dryajov@gmail.com>",
@@ -66,8 +66,8 @@
     "mafmt": "^6.0.7",
     "multiaddr": "^6.0.6",
     "once": "^1.4.0",
-    "peer-id": "~0.12.2",
-    "peer-info": "~0.15.1",
+    "@arve.knudsen/peer-id": "~0.12.2",
+    "@arve.knudsen/peer-info": "~0.15.1",
     "protons": "^1.0.1",
     "pull-handshake": "^1.1.4",
     "pull-length-prefixed": "^1.3.2",
